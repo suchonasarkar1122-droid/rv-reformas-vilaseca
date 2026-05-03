@@ -30,18 +30,6 @@ export const metadata: Metadata = {
   },
   description:
     "Equipo de reformas en Vila-seca y La Pineda. Adaptamos pisos turísticos, segundas residencias y viviendas costeras a la temporada de verano. Llama: 877 278 166.",
-  keywords: [
-    "reformas Vila-seca",
-    "reformas integrales Vila-seca",
-    "reformas cocinas Vila-seca",
-    "reformas baños Vila-seca",
-    "reformas pisos Vila-seca",
-    "reformas La Pineda",
-    "reformas pisos turísticos Vila-seca",
-    "reformas alquiler turístico Vila-seca",
-    "reformas Tarragonès",
-    "empresa reformas Vila-seca",
-  ],
   authors: [{ name: "RV Reformas Vila-seca" }],
   creator: "RV Reformas Vila-seca",
   publisher: "RV Reformas Vila-seca",
