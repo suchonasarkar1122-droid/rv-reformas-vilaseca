@@ -82,7 +82,7 @@ export default function ServiciosHub() {
               Servicios de reformas en Vila-seca
             </h2>
             <p className="font-body text-subtitle text-base">
-              Elige el servicio que necesitas. Cada servicio enlaza a una página con presupuesto orientativo, materiales recomendados, plazos típicos y FAQ específicas. Si no sabes por dónde empezar, llama al 877 278 166 y lo aclaramos en cinco minutos.
+              Elige el servicio que necesitas. Cada servicio enlaza a una página con presupuesto orientativo, materiales recomendados, plazos típicos y FAQ específicas. Si no sabes por dónde empezar, llama al 877 278 105 y lo aclaramos en cinco minutos.
             </p>
           </div>
 

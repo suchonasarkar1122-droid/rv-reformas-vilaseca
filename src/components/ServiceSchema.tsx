@@ -16,7 +16,7 @@ export default function ServiceSchema({ name, description, url, image }: Service
     provider: {
       "@type": "HomeAndConstructionBusiness",
       name: "RV Reformas Vila-seca",
-      telephone: "+34877278166",
+      telephone: "+34877278105",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Rambla de Catalunya, 6",

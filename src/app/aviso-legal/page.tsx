@@ -30,7 +30,7 @@ export default function AvisoLegalPage() {
             <ul className="list-disc pl-6 space-y-1 text-subtitle mt-3">
               <li><strong>Denominación:</strong> RV Reformas Vila-seca</li>
               <li><strong>Domicilio:</strong> Rambla de Catalunya, 6, 43480 Vila-seca, Tarragona</li>
-              <li><strong>Teléfono:</strong> 877 278 166</li>
+              <li><strong>Teléfono:</strong> 877 278 105</li>
               <li><strong>Email:</strong> info@reformasvilaseca.es</li>
               <li><strong>Sitio web:</strong> reformasvilaseca.es</li>
             </ul>

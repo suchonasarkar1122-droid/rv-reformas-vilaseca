@@ -120,7 +120,7 @@ export default function HeroForm() {
         />
 
         {error && (
-          <p className="text-red-400 text-xs text-center">No ha salido. Vuelve a probar o llámanos al 877 278 166.</p>
+          <p className="text-red-400 text-xs text-center">No ha salido. Vuelve a probar o llámanos al 877 278 105.</p>
         )}
 
         <div className="flex gap-2.5 mt-1">

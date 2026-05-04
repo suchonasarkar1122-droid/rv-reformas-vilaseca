@@ -7,7 +7,7 @@ export default function StructuredData() {
     url: "https://reformasvilaseca.es",
     logo: "https://reformasvilaseca.es/images/hero-reforma-vilaseca-mediterranea.webp",
     image: "https://reformasvilaseca.es/images/hero-reforma-vilaseca-mediterranea.webp",
-    telephone: "+34877278166",
+    telephone: "+34877278105",
     email: "info@reformasvilaseca.es",
     priceRange: "€€€",
     address: {

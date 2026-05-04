@@ -7,7 +7,7 @@ const CTAForm = dynamic(() => import("@/components/CTAForm"));
 export const metadata: Metadata = {
   title: "Contacto y valoración | RV Reformas Vila-seca",
   description:
-    "Visita técnica gratuita en Vila-seca, La Pineda y municipios cercanos. Llama al 877 278 166 o escríbenos por WhatsApp y te respondemos antes de 24 horas.",
+    "Visita técnica gratuita en Vila-seca, La Pineda y municipios cercanos. Llama al 877 278 105 o escríbenos por WhatsApp y te respondemos antes de 24 horas.",
   alternates: { canonical: "/contacto" },
   openGraph: {
     title: "Contacto - RV Reformas Vila-seca",
@@ -67,8 +67,8 @@ export default function ContactoPage() {
                   </div>
                   <h3 className="font-display font-bold text-dark text-base uppercase">Llámanos</h3>
                 </div>
-                <a href="tel:+34877278166" className="font-body font-semibold text-accent text-lg hover:underline">
-                  877 278 166
+                <a href="tel:+34877278105" className="font-body font-semibold text-accent text-lg hover:underline">
+                  877 278 105
                 </a>
                 <p className="text-subtitle text-sm mt-1 font-body">Respondemos de lunes a sábado.</p>
               </div>

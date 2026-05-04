@@ -173,13 +173,13 @@ export default function HomePage() {
             </div>
 
             <a
-              href="tel:+34877278166"
+              href="tel:+34877278105"
               className="inline-flex items-center gap-2.5 border-2 border-white/20 text-white px-7 py-4 rounded-full font-body font-bold text-[15px] hover:bg-white/10 transition-all duration-300 w-fit mb-8"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
               </svg>
-              877 278 166
+              877 278 105
             </a>
 
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-white/40 text-[11px] font-body uppercase tracking-[0.15em]">
@@ -458,7 +458,7 @@ export default function HomePage() {
               Preguntas frecuentes sobre reformas en Vila-seca
             </h2>
             <p className="font-body text-subtitle text-base max-w-[600px] mx-auto">
-              Dudas habituales antes de empezar la obra. Si tu duda no está aquí, escríbenos por WhatsApp al 623 760 710 o llama al 877 278 166. Respondemos en el mismo día.
+              Dudas habituales antes de empezar la obra. Si tu duda no está aquí, escríbenos por WhatsApp al 623 760 710 o llama al 877 278 105. Respondemos en el mismo día.
             </p>
           </div>
 

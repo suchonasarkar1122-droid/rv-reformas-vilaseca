@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Reformas de Pisos en Vila-seca y La Pineda | RV",
   description:
-    "Reformas de pisos costeros, segundas residencias y apartamentos turísticos en Vila-seca y La Pineda. Listos antes del verano. Importe cerrado. 877 278 166.",
+    "Reformas de pisos costeros, segundas residencias y apartamentos turísticos en Vila-seca y La Pineda. Listos antes del verano. Importe cerrado. 877 278 105.",
   alternates: { canonical: "/servicios/reformas-pisos" },
   openGraph: {
     title: "Reformas de Pisos en Vila-seca y La Pineda | RV",

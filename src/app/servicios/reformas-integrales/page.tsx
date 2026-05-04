@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Reformas Integrales en Vila-seca | RV",
   description:
-    "Reformas integrales llave en mano en Vila-seca y La Pineda: pisos turísticos, segundas residencias y casas pairales. Importe cerrado y plazos firmes. 877 278 166.",
+    "Reformas integrales llave en mano en Vila-seca y La Pineda: pisos turísticos, segundas residencias y casas pairales. Importe cerrado y plazos firmes. 877 278 105.",
   alternates: { canonical: "/servicios/reformas-integrales" },
   openGraph: {
     title: "Reformas Integrales en Vila-seca | RV",

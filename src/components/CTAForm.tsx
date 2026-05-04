@@ -97,7 +97,7 @@ export default function CTAForm({ defaultServiceType = "" }: CTAFormProps) {
       </div>
 
       {error && (
-        <p className="text-red-400 text-xs text-center">Algo se ha torcido al enviar. Prueba otra vez o llámanos al 877 278 166.</p>
+        <p className="text-red-400 text-xs text-center">Algo se ha torcido al enviar. Prueba otra vez o llámanos al 877 278 105.</p>
       )}
 
       <button

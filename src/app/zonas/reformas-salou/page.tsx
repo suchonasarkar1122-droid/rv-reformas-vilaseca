@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Salou · Apartamentos turísticos costeros | RV",
-  description: "Reformamos apartamentos turísticos en Salou Centre, Cap Salou, Capellans y Platja de Llevant. Calendario al verano. Llave en mano. 877 278 166.",
+  description: "Reformamos apartamentos turísticos en Salou Centre, Cap Salou, Capellans y Platja de Llevant. Calendario al verano. Llave en mano. 877 278 105.",
   alternates: { canonical: "/zonas/reformas-salou" },
   openGraph: { title: "Reformas en Salou - RV Reformas", description: "Reformas de apartamentos turísticos en Salou con plazos pegados al verano y materiales que aguantan la salinidad.", url: "/zonas/reformas-salou" },
 };

@@ -103,7 +103,7 @@ export default function PostAyudasPage() {
             En las obras donde el propietario quiere acceder a ayudas, trabajamos con un técnico colegiado que prepara la documentación previa (certificado energético antes y después, mediciones, fotografías, memoria justificativa) y un gestor que tramita la solicitud. La obra se realiza con todos los justificantes necesarios para el expediente.
           </p>
           <p className="font-body text-subtitle text-base leading-relaxed">
-            Importante: la solicitud se presenta antes de empezar la obra. Si ya has firmado contrato y empezado, casi todas las ayudas quedan fuera. Si te interesan las subvenciones, llámanos al <strong className="text-dark">877 278 166</strong> antes de cerrar nada y lo planificamos en el orden correcto.
+            Importante: la solicitud se presenta antes de empezar la obra. Si ya has firmado contrato y empezado, casi todas las ayudas quedan fuera. Si te interesan las subvenciones, llámanos al <strong className="text-dark">877 278 105</strong> antes de cerrar nada y lo planificamos en el orden correcto.
           </p>
 
           <p className="font-body text-subtitle text-base leading-relaxed mt-4">

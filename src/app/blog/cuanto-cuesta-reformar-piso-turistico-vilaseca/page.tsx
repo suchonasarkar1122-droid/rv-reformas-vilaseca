@@ -107,7 +107,7 @@ export default function PostCuantoCuestaPage() {
           </p>
 
           <p className="font-body text-subtitle text-base leading-relaxed mt-4">
-            Si necesitas una valoración detallada para tu inmueble concreto, llámanos al <strong className="text-dark">877 278 166</strong> o pide visita técnica desde la <Link href="/contacto" className="text-accent underline">página de contacto</Link>. Te respondemos en menos de 24 horas con cifras precisas adaptadas a tu piso.
+            Si necesitas una valoración detallada para tu inmueble concreto, llámanos al <strong className="text-dark">877 278 105</strong> o pide visita técnica desde la <Link href="/contacto" className="text-accent underline">página de contacto</Link>. Te respondemos en menos de 24 horas con cifras precisas adaptadas a tu piso.
           </p>
         </div>
 

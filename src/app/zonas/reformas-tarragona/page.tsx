@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Tarragona · Segunda residencia en la costa | RV",
-  description: "Trabajamos en Tarragona capital para clientes que tienen segunda residencia en Vila-seca o La Pineda. Eixample, Bonavista, Sant Pere i Sant Pau. 877 278 166.",
+  description: "Trabajamos en Tarragona capital para clientes que tienen segunda residencia en Vila-seca o La Pineda. Eixample, Bonavista, Sant Pere i Sant Pau. 877 278 105.",
   alternates: { canonical: "/zonas/reformas-tarragona" },
   openGraph: { title: "Reformas en Tarragona - RV Reformas", description: "Reformas para clientes de Tarragona capital con vivienda en la costa Daurada.", url: "/zonas/reformas-tarragona" },
 };

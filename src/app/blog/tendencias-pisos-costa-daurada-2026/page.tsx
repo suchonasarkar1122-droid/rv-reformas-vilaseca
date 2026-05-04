@@ -97,7 +97,7 @@ export default function PostTendenciasPage() {
           </p>
 
           <p className="font-body text-subtitle text-base leading-relaxed mt-4">
-            Si te planteas reformar tu piso costero y quieres asesoramiento sobre qué tendencias aplicar y cuáles ignorar para tu caso concreto, llámanos al <strong className="text-dark">877 278 166</strong> o escríbenos por <a href="https://wa.me/34623760710" target="_blank" rel="noopener noreferrer" className="text-accent underline">WhatsApp</a>.
+            Si te planteas reformar tu piso costero y quieres asesoramiento sobre qué tendencias aplicar y cuáles ignorar para tu caso concreto, llámanos al <strong className="text-dark">877 278 105</strong> o escríbenos por <a href="https://wa.me/34623760710" target="_blank" rel="noopener noreferrer" className="text-accent underline">WhatsApp</a>.
           </p>
         </div>
 

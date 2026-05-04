@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Cambrils · Pisos heredados y obras puntuales | RV",
-  description: "Reformas en Cambrils para clientes de Vila-seca con piso heredado o que prefieren mismo equipo en Vilafortuny. Obras puntuales y reformas integrales. 877 278 166.",
+  description: "Reformas en Cambrils para clientes de Vila-seca con piso heredado o que prefieren mismo equipo en Vilafortuny. Obras puntuales y reformas integrales. 877 278 105.",
   alternates: { canonical: "/zonas/reformas-cambrils" },
   openGraph: { title: "Reformas en Cambrils - RV Reformas", description: "Reformas puntuales en Cambrils para vecinos de Vila-seca con vivienda heredada o segunda residencia familiar.", url: "/zonas/reformas-cambrils" },
 };

@@ -128,7 +128,7 @@ export default function CookiesPage() {
               6. Contacto
             </h2>
             <p className="text-subtitle leading-relaxed">
-              Si tienes dudas sobre esta política, escríbenos a <a href="mailto:info@reformasvilaseca.es" className="text-accent underline">info@reformasvilaseca.es</a> o llámanos al 877 278 166.
+              Si tienes dudas sobre esta política, escríbenos a <a href="mailto:info@reformasvilaseca.es" className="text-accent underline">info@reformasvilaseca.es</a> o llámanos al 877 278 105.
             </p>
           </div>
         </div>

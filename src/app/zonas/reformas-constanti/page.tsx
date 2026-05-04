@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Constantí · Casas con terreno y masías | RV",
-  description: "Reformas residenciales en Constantí y Centcelles: casas unifamiliares con jardín, masías rehabilitadas y vivienda rural-residencial del Tarragonès. 877 278 166.",
+  description: "Reformas residenciales en Constantí y Centcelles: casas unifamiliares con jardín, masías rehabilitadas y vivienda rural-residencial del Tarragonès. 877 278 105.",
   alternates: { canonical: "/zonas/reformas-constanti" },
   openGraph: { title: "Reformas en Constantí - RV Reformas", description: "Reformas en Constantí, Centcelles y zona rural-residencial del Tarragonès. Casas con terreno y antiguas masías.", url: "/zonas/reformas-constanti" },
 };

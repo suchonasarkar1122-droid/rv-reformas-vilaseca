@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en La Canonja · Vivienda residencial | RV",
-  description: "Reformas residenciales en La Canonja, Masricard y barrios del corredor industrial. Vivienda de empleados de la petroquímica. Importe cerrado. 877 278 166.",
+  description: "Reformas residenciales en La Canonja, Masricard y barrios del corredor industrial. Vivienda de empleados de la petroquímica. Importe cerrado. 877 278 105.",
   alternates: { canonical: "/zonas/reformas-la-canonja" },
   openGraph: { title: "Reformas en La Canonja - RV Reformas", description: "Reforma de viviendas en La Canonja con foco en familias del corredor petroquímico y casas de Masricard.", url: "/zonas/reformas-la-canonja" },
 };

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: "%s | RV Reformas Vila-seca",
   },
   description:
-    "Equipo de reformas en Vila-seca y La Pineda. Adaptamos pisos turísticos, segundas residencias y viviendas costeras a la temporada de verano. Llama: 877 278 166.",
+    "Equipo de reformas en Vila-seca y La Pineda. Adaptamos pisos turísticos, segundas residencias y viviendas costeras a la temporada de verano. Llama: 877 278 105.",
   authors: [{ name: "RV Reformas Vila-seca" }],
   creator: "RV Reformas Vila-seca",
   publisher: "RV Reformas Vila-seca",
