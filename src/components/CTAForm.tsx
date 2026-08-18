@@ -1,6 +1,7 @@
 ﻿"use client";
 
 import { useState } from "react";
+import { submitLead } from "@/lib/submitLead";
 
 interface CTAFormProps {
   defaultServiceType?: string;
@@ -20,11 +21,7 @@ export default function CTAForm({ defaultServiceType = "" }: CTAFormProps) {
     const data = new FormData(form);
 
     try {
-      const res = await fetch("https://formspree.io/f/mgodveqy", {
-        method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
-      });
+      const res = await submitLead(data, "https://formspree.io/f/mgodveqy");
       if (res.ok) {
         setSubmitted(true);
       } else {
