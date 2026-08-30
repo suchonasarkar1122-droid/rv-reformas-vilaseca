@@ -20,8 +20,8 @@ export default function StructuredData() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 41.1106,
-      longitude: 1.1456,
+      latitude: 41.109497499999996,
+      longitude: 1.1479214999999998,
     },
     areaServed: [
       { "@type": "City", name: "Vila-seca" },

@@ -108,6 +108,14 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Google Maps — ficha verificada */}
+          <div className="flex flex-col gap-4" data-map-listing="0x12a159af6f00d351:0xdc27e509adec8bda">
+            <h3 className="font-body font-bold text-xs uppercase tracking-[0.2em] text-accent">Dónde estamos</h3>
+            <div className="overflow-hidden rounded-[14px] border border-white/10 bg-white/5">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.1462232807535!2d1.1479214999999998!3d41.109497499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a159af6f00d351%3A0xdc27e509adec8bda!2sRV%20-%20Reformas%20Vilaseca!5e0!3m2!1ses!2sfr!4v1788097545605!5m2!1ses!2sfr" title="Ubicación de RV - Reformas Vilaseca en Google Maps" width="100%" height="280" style={{ border: 0, display: "block" }} allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin" />
+            </div>
+          </div>
+
           {/* Legal + Bottom */}
           <div className="flex flex-col gap-4 pt-4">
             <div className="w-full h-px bg-white/10" />
