@@ -33,20 +33,7 @@ export default function StructuredData() {
     ],
     hasMap: "https://maps.google.com/?cid=15863900042171288538",
     sameAs: ["https://maps.google.com/?cid=15863900042171288538"],
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "08:30",
-        closes: "19:30",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Saturday",
-        opens: "09:00",
-        closes: "13:30",
-      },
-    ],
+    openingHoursSpecification: [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "21:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}],
   };
 
   const website = {"@context":"https://schema.org","@type":"WebSite","@id":"https://reformasvilaseca.es/#website","url":"https://reformasvilaseca.es","name":"RV - Reformas Vilaseca","inLanguage":"es-ES","publisher":{"@id":"https://reformasvilaseca.es/#business"}};

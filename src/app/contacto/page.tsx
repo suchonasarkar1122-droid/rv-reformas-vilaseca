@@ -130,19 +130,19 @@ export default function ContactoPage() {
                   <h3 className="font-display font-bold text-dark text-base uppercase">Horario</h3>
                 </div>
                 <ul className="space-y-1 text-sm font-body">
-                  <li className="flex justify-between">
+ <li className="flex justify-between">
                     <span className="text-subtitle">Lunes - Viernes</span>
-                    <span className="font-semibold text-dark">8:30 - 19:30</span>
+                    <span className="font-semibold text-dark">8:00 - 21:00</span>
                   </li>
-                  <li className="flex justify-between">
+ <li className="flex justify-between">
                     <span className="text-subtitle">Sábado</span>
-                    <span className="font-semibold text-dark">9:00 - 13:30</span>
+                    <span className="font-semibold text-dark">8:00 - 14:00</span>
                   </li>
-                  <li className="flex justify-between">
+ <li className="flex justify-between">
                     <span className="text-subtitle">Domingo</span>
                     <span className="font-semibold text-dark">Cerrado</span>
                   </li>
-                </ul>
+ </ul>
               </div>
             </aside>
           </div>
