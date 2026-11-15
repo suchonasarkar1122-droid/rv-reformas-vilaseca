@@ -1,10 +1,10 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Tendencias 2026 para pisos de la costa Daurada: lo que pide el huésped y lo que aguanta el mar",
+  title: "Tendencias 2026 para pisos de la Costa Daurada",
   description:
     "Materiales, colores y distribuciones que funcionan en pisos turísticos y segundas residencias en Vila-seca, La Pineda y la costa Daurada en 2026.",
   alternates: { canonical: "/blog/tendencias-pisos-costa-daurada-2026" },

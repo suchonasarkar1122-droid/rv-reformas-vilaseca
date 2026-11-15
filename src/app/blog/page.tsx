@@ -4,9 +4,9 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Blog · Reformas en la costa Daurada | RV Reformas Vila-seca",
+  title: "Blog · Reformas en la costa Daurada",
   description:
-    "Guías sobre reformas para alquiler turístico, tendencias en pisos costeros y ayudas energéticas en el Tarragonès. Contenido pensado para propietarios e inversores de Vila-seca.",
+    "Guías sobre reformas para alquiler turístico, tendencias en pisos costeros y ayudas energéticas en el Tarragonès.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Blog - RV Reformas Vila-seca",

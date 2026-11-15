@@ -9,7 +9,7 @@ import dynamic from "next/dynamic";
 const CTAForm = dynamic(() => import("@/components/CTAForm"));
 
 export const metadata: Metadata = {
-  title: "Sobre Nosotros | RV Reformas Vila-seca",
+  title: "Sobre Nosotros",
   description:
     "Equipo local de reformas con base en Vila-seca. Plantilla propia, especialistas en pisos turísticos, segundas residencias y casas pairales del Tarragonès.",
   alternates: { canonical: "/sobre-nosotros" },

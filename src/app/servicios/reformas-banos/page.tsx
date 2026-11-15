@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,9 +7,9 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Baños en Vila-seca | RV",
+  title: "Reformas de Baños en Vila-seca",
   description:
-    "Renovamos tu baño en Vila-seca y La Pineda: cambio bañera por ducha, plato de obra, mampara, sanitarios y grifería antical. Para alquiler turístico y vivienda. 877 278 105.",
+    "Renovamos tu baño en Vila-seca y La Pineda: cambio bañera por ducha, plato de obra, mampara, sanitarios y grifería antical.",
   alternates: { canonical: "/servicios/reformas-banos" },
   openGraph: {
     title: "Reformas de Baños en Vila-seca | RV",

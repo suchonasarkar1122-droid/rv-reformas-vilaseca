@@ -5,9 +5,9 @@ import HeroService from "@/components/HeroService";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Servicios de Reformas en Vila-seca | RV",
+  title: "Servicios de Reformas en Vila-seca",
   description:
-    "Reformas integrales, cocinas, baños, pisos y locales en Vila-seca, La Pineda y el Tarragonès. Para vivir, alquilar como vivienda turística o abrir tu negocio antes de temporada.",
+    "Reformas integrales, cocinas, baños, pisos y locales en Vila-seca, La Pineda y el Tarragonès.",
   alternates: { canonical: "/servicios" },
   openGraph: {
     title: "Servicios de Reformas en Vila-seca | RV",

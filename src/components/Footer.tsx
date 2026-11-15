@@ -20,7 +20,6 @@ const zoneLinks = [
   { label: "Reformas en Vila-seca", href: "/" },
   { label: "Reformas en Salou", href: "/zonas/reformas-salou" },
   { label: "Reformas en La Canonja", href: "/zonas/reformas-la-canonja" },
-  { label: "Reformas en Tarragona", href: "/zonas/reformas-tarragona" },
   { label: "Reformas en Cambrils", href: "/zonas/reformas-cambrils" },
   { label: "Reformas en Constantí", href: "/zonas/reformas-constanti" },
 ];

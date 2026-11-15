@@ -4,7 +4,7 @@ import HeroService from "@/components/HeroService";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Zonas | Reformas en el Tarragonès",
+  title: "Zonas de servicio en el Tarragonès",
   description:
     "Reformamos en Vila-seca, Salou, La Canonja, Tarragona, Cambrils y Constantí. Cinco municipios cercanos con cobertura sin sobrecoste por desplazamiento.",
   alternates: { canonical: "/zonas" },
@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 const zones = [
   { name: "Salou", slug: "reformas-salou", text: "Apartamentos turísticos de Capellans, Cap Salou y Salou Centre. Reforma con calendario apretado al verano." },
   { name: "La Canonja", slug: "reformas-la-canonja", text: "Corredor logístico-industrial. Vivienda de empleados de la petroquímica y casas de pueblo de Masricard." },
-  { name: "Tarragona", slug: "reformas-tarragona", text: "Clientes de Tarragona capital con segunda residencia en la costa. Eixample, Bonavista y Sant Pere i Sant Pau." },
   { name: "Cambrils", slug: "reformas-cambrils", text: "Trabajamos puntualmente cuando un cliente de Vila-seca tiene piso heredado o quiere mismo equipo en Vilafortuny." },
   { name: "Constantí", slug: "reformas-constanti", text: "Zona rural-residencial. Casas con terreno, antiguas masías y viviendas unifamiliares con jardín." },
 ];

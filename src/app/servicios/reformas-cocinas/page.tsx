@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,9 +7,9 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Cocinas en Vila-seca | RV",
+  title: "Reformas de Cocinas en Vila-seca",
   description:
-    "Reformas de cocinas en Vila-seca y La Pineda. Cocinas abiertas, isla central, americanas para alquiler turístico. Materiales que aguantan la salinidad. Importe cerrado. 877 278 105.",
+    "Reformas de cocinas en Vila-seca y La Pineda. Cocinas abiertas, isla central, americanas para alquiler turístico. Materiales que aguantan la salinidad.",
   alternates: { canonical: "/servicios/reformas-cocinas" },
   openGraph: {
     title: "Reformas de Cocinas en Vila-seca | RV",

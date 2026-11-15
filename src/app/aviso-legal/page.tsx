@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso Legal · RV Reformas Vila-seca",
+  title: "Aviso Legal",
   description: "Aviso legal de RV Reformas Vila-seca: titular del sitio, condiciones de uso, propiedad intelectual y jurisdicción aplicable.",
   alternates: { canonical: "/aviso-legal" },
   robots: { index: true, follow: true },

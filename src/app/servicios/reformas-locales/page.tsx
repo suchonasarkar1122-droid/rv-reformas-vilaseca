@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,9 +7,9 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Locales en Vila-seca | RV",
+  title: "Reformas de Locales en Vila-seca",
   description:
-    "Reforma de locales comerciales y de hostelería en Vila-seca, La Pineda y Salou. Apertura de negocio en plazo, licencia de actividad y diseño funcional. 877 278 105.",
+    "Reforma de locales comerciales y de hostelería en Vila-seca, La Pineda y Salou. Apertura de negocio en plazo, licencia de actividad y diseño funcional.",
   alternates: { canonical: "/servicios/reformas-locales" },
   openGraph: {
     title: "Reformas de Locales en Vila-seca | RV",

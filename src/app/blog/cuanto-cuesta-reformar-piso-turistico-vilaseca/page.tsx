@@ -4,9 +4,9 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?",
+  title: { absolute: "¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?" },
   description:
-    "Cifras reales para reformar un piso de alquiler vacacional en Vila-seca o La Pineda en 2026. Rangos por m², partidas, ROI esperado y plazos para llegar al verano.",
+    "Cifras reales para reformar un piso de alquiler vacacional en Vila-seca o La Pineda en 2026.",
   alternates: { canonical: "/blog/cuanto-cuesta-reformar-piso-turistico-vilaseca" },
   openGraph: {
     title: "¿Cuánto cuesta reformar un piso turístico en Vila-seca?",

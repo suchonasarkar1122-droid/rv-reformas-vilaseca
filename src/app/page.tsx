@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import CTAButtons from "@/components/CTAButtons";
@@ -163,7 +163,7 @@ export default function HomePage() {
             </h1>
 
             <p className="font-body text-white/55 text-[16px] max-w-[460px] leading-[1.65] mb-6">
-              Pisos turísticos en La Pineda, segundas residencias frente al mar, casas pairales del centro y chalets de Els Boscos. Materiales pensados para la salinidad y plazos cuadrados para abrir antes del verano.
+              Empresa de reformas en Vilaseca (Vila-seca) y La Pineda: pisos turísticos, segundas residencias frente al mar, casas pairales del centro y chalets de Els Boscos. Materiales pensados para la salinidad y plazos cuadrados para abrir antes del verano.
             </p>
 
             <div className="mb-8">
@@ -282,7 +282,6 @@ export default function HomePage() {
             {[
               { name: "Salou", slug: "reformas-salou" },
               { name: "La Canonja", slug: "reformas-la-canonja" },
-              { name: "Tarragona", slug: "reformas-tarragona" },
               { name: "Cambrils", slug: "reformas-cambrils" },
               { name: "Constantí", slug: "reformas-constanti" },
             ].map((zone) => (

@@ -4,7 +4,7 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Ayudas a la rehabilitación energética en el Tarragonès: guía 2026",
+  title: { absolute: "Ayudas a la rehabilitación energética en el Tarragonès: guía 2026" },
   description:
     "Subvenciones Next Generation y ayudas autonómicas para mejorar la eficiencia energética de tu vivienda en Vila-seca, Salou, Tarragona y comarca.",
   alternates: { canonical: "/blog/ayudas-rehabilitacion-energetica-tarragones" },

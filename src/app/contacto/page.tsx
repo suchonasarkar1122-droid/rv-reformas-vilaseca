@@ -1,11 +1,11 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 const CTAForm = dynamic(() => import("@/components/CTAForm"));
 
 export const metadata: Metadata = {
-  title: "Contacto y valoración | RV Reformas Vila-seca",
+  title: "Contacto y valoración",
   description:
     "Visita técnica gratuita en Vila-seca, La Pineda y municipios cercanos. Llama al 877 278 105 o escríbenos por WhatsApp y te respondemos antes de 24 horas.",
   alternates: { canonical: "/contacto" },

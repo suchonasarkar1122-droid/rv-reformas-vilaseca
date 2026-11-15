@@ -3,7 +3,8 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "HomeAndConstructionBusiness", "GeneralContractor"],
     "@id": "https://reformasvilaseca.es/#business",
-    name: "RV Reformas Vila-seca",
+    name: "RV - Reformas Vilaseca",
+    alternateName: "RV Reformas Vila-seca",
     url: "https://reformasvilaseca.es",
     logo: "https://reformasvilaseca.es/images/hero-reforma-vilaseca-mediterranea.webp",
     image: "https://reformasvilaseca.es/images/hero-reforma-vilaseca-mediterranea.webp",
@@ -27,11 +28,11 @@ export default function StructuredData() {
       { "@type": "City", name: "Vila-seca" },
       { "@type": "City", name: "Salou" },
       { "@type": "City", name: "La Canonja" },
-      { "@type": "City", name: "Tarragona" },
       { "@type": "City", name: "Cambrils" },
       { "@type": "City", name: "Constantí" },
     ],
-    sameAs: [],
+    hasMap: "https://maps.google.com/?cid=15863900042171288538",
+    sameAs: ["https://maps.google.com/?cid=15863900042171288538"],
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
@@ -48,10 +49,15 @@ export default function StructuredData() {
     ],
   };
 
+  const website = {"@context":"https://schema.org","@type":"WebSite","@id":"https://reformasvilaseca.es/#website","url":"https://reformasvilaseca.es","name":"RV - Reformas Vilaseca","inLanguage":"es-ES","publisher":{"@id":"https://reformasvilaseca.es/#business"}};
+
   return (
+    <>
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }} />
+    </>
   );
 }
