@@ -21,8 +21,8 @@ const posts = [
     title: "Humedad y condensación en invierno: cómo proteger tu piso en Vila-seca y La Pineda",
     excerpt:
       "Por qué aparecen moho y cristales empañados en los pisos de costa cuando llega el frío, qué hacer este invierno sin obras y qué reformar antes de la primavera.",
-    image: "/images/salon-luminoso-costa-vilaseca.webp",
-    imageAlt: "Piso de costa en Vila-seca preparado contra la humedad de invierno",
+    image: "/images/blog/humedad-condensacion-invierno-vilaseca-la-pineda.webp",
+    imageAlt: "Humedad y condensación en invierno",
     date: "15 noviembre 2026",
     category: "Mantenimiento",
   },
@@ -31,8 +31,8 @@ const posts = [
     title: "¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?",
     excerpt:
       "Análisis con cifras reales: rangos por m², desglose por estancia, ROI esperado en alquiler vacacional y cuándo conviene encargar para llegar al verano.",
-    image: "/images/habitacion-infantil-antes-despues.webp",
-    imageAlt: "Reforma de piso turístico en La Pineda - presupuesto 2026",
+    image: "/images/blog/cuanto-cuesta-reformar-piso-turistico-vilaseca.webp",
+    imageAlt: "¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?",
     date: "20 abril 2026",
     category: "Guía de precios",
   },
@@ -41,8 +41,8 @@ const posts = [
     title: "Tendencias 2026 para pisos de la costa Daurada: lo que pide el huésped y lo que aguanta el mar",
     excerpt:
       "Materiales, colores y distribuciones que funcionan en pisos turísticos y segundas residencias frente al mar. Lo que está caducado y lo que viene.",
-    image: "/images/rincon-lectura-butaca-tapizada.webp",
-    imageAlt: "Tendencias en pisos costeros de la costa Daurada 2026",
+    image: "/images/blog/tendencias-pisos-costa-daurada-2026.webp",
+    imageAlt: "Tendencias 2026 para pisos de la costa Daurada en Vila-seca y La Pineda",
     date: "10 abril 2026",
     category: "Tendencias",
   },
@@ -51,8 +51,8 @@ const posts = [
     title: "Ayudas a la rehabilitación energética en el Tarragonès: Next Generation y subvenciones autonómicas",
     excerpt:
       "Subvenciones para mejorar eficiencia energética de tu vivienda en Vila-seca, Salou o Tarragona: requisitos, cuantías, plazos y cómo gestionarlo sin perder dinero.",
-    image: "/images/estudio-muebles-madera-natural.webp",
-    imageAlt: "Ayudas energéticas para vivienda en el Tarragonès",
+    image: "/images/blog/ayudas-rehabilitacion-energetica-tarragones.webp",
+    imageAlt: "Ayudas a la rehabilitación energética en el Tarragonès en Vila-seca y La Pineda",
     date: "1 abril 2026",
     category: "Ayudas y subvenciones",
   },

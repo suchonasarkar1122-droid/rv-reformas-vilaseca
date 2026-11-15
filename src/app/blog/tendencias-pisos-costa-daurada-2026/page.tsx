@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Lo que viene en pisos costeros: materiales, colores, distribuciones y lo que está caducado.",
     url: "/blog/tendencias-pisos-costa-daurada-2026",
     type: "article",
-    images: ["/images/rincon-lectura-butaca-tapizada.webp"],
+    images: ["/images/blog/tendencias-pisos-costa-daurada-2026.webp"],
   },
 };
 
@@ -25,7 +25,7 @@ const articleSchema = {
   dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "RV Reformas Vila-seca" },
   publisher: { "@id": "https://reformasvilaseca.es/#business" },
-  image: "https://reformasvilaseca.es/images/rincon-lectura-butaca-tapizada.webp",
+  image: "https://reformasvilaseca.es/images/blog/tendencias-pisos-costa-daurada-2026.webp",
 };
 
 export default function PostTendenciasPage() {
@@ -42,7 +42,7 @@ export default function PostTendenciasPage() {
 
       <article className="bg-beige">
         <header className="relative h-[420px] md:h-[520px] w-full overflow-hidden">
-          <Image src="/images/rincon-lectura-butaca-tapizada.webp" alt="Tendencias en pisos costeros de Vila-seca y La Pineda 2026" fill className="object-cover" priority sizes="100vw" />
+          <Image src="/images/blog/tendencias-pisos-costa-daurada-2026.webp" alt="Tendencias 2026 para pisos de la costa Daurada en Vila-seca y La Pineda" fill className="object-cover" priority sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/85" />
           <div className="relative z-10 h-full flex flex-col items-center justify-end text-center px-5 pb-16">
             <span className="bg-accent text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider mb-5">Tendencias</span>

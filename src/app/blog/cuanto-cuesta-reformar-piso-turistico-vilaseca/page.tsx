@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Análisis con cifras reales: rangos por m², ROI esperado y cuándo encargar para llegar al primer huésped de verano.",
     url: "/blog/cuanto-cuesta-reformar-piso-turistico-vilaseca",
     type: "article",
-    images: ["/images/habitacion-infantil-antes-despues.webp"],
+    images: ["/images/blog/cuanto-cuesta-reformar-piso-turistico-vilaseca.webp"],
   },
 };
 
@@ -25,7 +25,7 @@ const articleSchema = {
   dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "RV Reformas Vila-seca" },
   publisher: { "@id": "https://reformasvilaseca.es/#business" },
-  image: "https://reformasvilaseca.es/images/habitacion-infantil-antes-despues.webp",
+  image: "https://reformasvilaseca.es/images/blog/cuanto-cuesta-reformar-piso-turistico-vilaseca.webp",
 };
 
 export default function PostCuantoCuestaPage() {
@@ -42,7 +42,7 @@ export default function PostCuantoCuestaPage() {
 
       <article className="bg-beige">
         <header className="relative h-[420px] md:h-[520px] w-full overflow-hidden">
-          <Image src="/images/habitacion-infantil-antes-despues.webp" alt="Reforma de piso turístico en La Pineda" title="Reforma piso turístico Vila-seca" fill className="object-cover" priority sizes="100vw" />
+          <Image src="/images/blog/cuanto-cuesta-reformar-piso-turistico-vilaseca.webp" alt="¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?" title="Reforma piso turístico Vila-seca" fill className="object-cover" priority sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/85" />
           <div className="relative z-10 h-full flex flex-col items-center justify-end text-center px-5 pb-16">
             <span className="bg-accent text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider mb-5">Guía de precios</span>
