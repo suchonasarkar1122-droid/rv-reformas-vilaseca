@@ -23,6 +23,8 @@ const faqs = [
   { q: "¿Cubrís Cambrils si vivo en Cambrils?", a: "Sí, aunque la zona la tenemos como secundaria. Hacemos visita y propuesta como en Vila-seca. Si la obra es muy grande y compleja, te decimos honestamente si tiene más sentido que trabajes con un equipo de Cambrils. La transparencia es la base." },
   { q: "Distancia y plazos desde Vila-seca", a: "Cambrils está a 9 km / 12 minutos por la N-340. La distancia es muy similar a Salou, así que no genera sobrecoste por desplazamiento. Plazos idénticos al resto de zonas." },
   { q: "¿Reformáis en Vilafortuny?", a: "Sí. Vilafortuny tiene urbanizaciones residenciales con casas pareadas y unifamiliares de los 80-90. Reformamos integrales con cocina abierta y suite principal en planta alta. Materiales costeros." },
+  { q: "¿Puedo cerrar la terraza de mi piso en el Port de Cambrils?", a: "Cerrar una terraza modifica la fachada y suele requerir acuerdo de la comunidad y licencia municipal. En muchos edificios no está permitido o solo se acepta un modelo concreto de cerramiento. Lo comprobamos antes de proponerlo; si no es viable, buscamos alternativas como toldos o mejorar la carpintería del salón." },
+  { q: "¿Cómo controlo la obra si vivo fuera de Cambrils?", a: "Te enviamos un calendario por fases y fotos de avance cada semana, y concentramos las decisiones de materiales antes del inicio. Las visitas presenciales se reducen a la firma, a un control a mitad de obra si lo deseas y a la entrega final." },
 ];
 
 export default function ZonaCambrilsPage() {
@@ -78,6 +80,27 @@ export default function ZonaCambrilsPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Cambrils, barrio a barrio</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Del puerto a Vilafortuny: qué casas encontramos</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Cambrils combina un núcleo marinero con un frente litoral que se ha ido urbanizando hacia Salou y hacia Mont-roig. En el barrio del Port abundan los pisos de los 70 y 80 en bloques frente al paseo, con terrazas que los propietarios quieren integrar en el salón y baños pequeños con bañera. El nucli antic, alrededor de la iglesia de Santa Maria y la calle de l’Hospital, conserva casas de pueblo estrechas y profundas con patio. Vilafortuny y Cambrils Badia concentran urbanizaciones de unifamiliares y pareadas, muchas de segunda residencia, con jardín, piscina y algún que otro porche cerrado sin demasiado criterio.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Segunda residencia: reformar cuando no estás</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Buena parte de los propietarios de Cambrils no vive allí todo el año, así que la obra tiene que funcionar a distancia. Trabajamos con un calendario compartido, fotos semanales de avance y decisiones de materiales cerradas antes de empezar, para que nadie tenga que desplazarse a elegir un azulejo a mitad de obra. En casas que pasan cerradas el invierno revisamos ventilación y estanqueidad de cubiertas, que es donde suelen aparecer los problemas. Si lo que necesitas es renovar sobre todo la zona de aguas, puedes ver cómo trabajamos las <Link href="/servicios/reformas-banos" className="text-accent font-bold underline underline-offset-2">reformas de baños</Link>.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Licencias en el Ajuntament de Cambrils</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Las obras interiores que no afectan a estructura ni fachada se tramitan en general mediante comunicación previa en el Ajuntament de Cambrils. Cerrar una terraza, ampliar volumen en una casa de Vilafortuny o modificar fachada ya requiere licencia de obra mayor con proyecto, y conviene comprobar antes la normativa de la urbanización y los estatutos de la comunidad, que a menudo fijan colores y materiales exteriores. Este paso lo revisamos antes de presupuestar para no prometer algo que luego no se pueda autorizar.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Si tienes propiedades también en Vila-seca o La Pineda, consulta nuestras <Link href="/" className="text-accent font-bold underline underline-offset-2">reformas en Vilaseca</Link>: podemos planificar ambas obras de forma escalonada con el mismo equipo y un único interlocutor.
+          </p>
         </div>
       </section>
 

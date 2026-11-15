@@ -122,11 +122,19 @@ const faqs = [
   },
   {
     q: "¿Trabajáis en municipios cercanos a Vila-seca?",
-    a: "Sí, atendemos toda la zona de influencia: Salou, La Canonja, Tarragona, Cambrils y Constantí. La cercanía nos permite que el equipo esté en obra cada día sin sobrecoste por desplazamiento. Si tienes una vivienda fuera de esa franja, pregúntanos: estudiamos cada caso.",
+    a: "Sí, atendemos toda la zona de influencia: Salou, La Canonja, Cambrils y Constantí. La cercanía nos permite que el equipo esté en obra cada día sin sobrecoste por desplazamiento. Si tienes una vivienda fuera de esa franja, pregúntanos: estudiamos cada caso.",
   },
   {
     q: "¿El presupuesto incluye gestión de residuos, comunidad y limpieza final?",
     a: "Todo incluido. Aportamos contenedor con transportista autorizado, gestionamos los residuos en planta de la zona, hablamos con el presidente de la comunidad para los horarios de obra y entregamos el inmueble con limpieza profesional, sin polvo en cajones ni en cristales.",
+  },
+  {
+    q: "¿Es lo mismo reformar en Vila-seca que en Vilaseca o La Pineda?",
+    a: "Es el mismo municipio: Vila-seca es el nombre oficial y Vilaseca la forma en que muchos lo escriben. La Pineda es su núcleo de playa. Cambia el tipo de vivienda: en el pueblo predomina la vivienda habitual y en La Pineda el apartamento de verano, más expuesto al salitre y a la humedad del invierno.",
+  },
+  {
+    q: "¿Qué permiso necesito del Ajuntament de Vila-seca para reformar mi piso?",
+    a: "Para una reforma interior sin cambios de estructura ni de fachada suele bastar una comunicación previa. Si tocas fachada, cierras terraza o afectas a la estructura, el trámite es más exigente. Lo comprobamos en la visita y preparamos la documentación.",
   },
 ];
 
@@ -268,6 +276,32 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Reformas en Vilaseca</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.1]">Reformas en Vila-seca (Vilaseca) y La Pineda: dos formas de vivir el mismo municipio</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Quien busca reformas en Vilaseca suele tener en mente una de dos casas muy distintas. La primera es la vivienda del pueblo: un piso en un bloque de los años 70 u 80, una casa entre medianeras del casco antiguo o un chalet en Els Boscos, donde se vive todo el año y la reforma tiene que hacer la vida diaria más cómoda. La segunda es el apartamento de La Pineda, pensado para el verano, a pocos pasos de la playa, que se usa unas semanas al año o se alquila a turistas. Las dos pertenecen al mismo municipio, Vila-seca, pero piden enfoques diferentes, y por eso empezamos cada proyecto preguntando para qué vas a usar el inmueble.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Reformar en el núcleo de Vila-seca</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En el núcleo de Vilaseca predominan los pisos de vivienda habitual con cocina cerrada, dos baños pequeños o uno solo, y una instalación eléctrica que ya no soporta los electrodomésticos actuales. Aquí las obras más frecuentes son la <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline underline-offset-2">reforma de la cocina</Link> para abrirla al salón, el cambio de bañera por ducha y la renovación completa de instalaciones. En las casas del casco antiguo aparecen además humedades por capilaridad en planta baja, vigas que hay que revisar y elementos que vale la pena conservar, como el pavimento hidráulico o las puertas de madera maciza.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Reformar en La Pineda</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En La Pineda el reto es otro: el salitre, la humedad del invierno con el piso cerrado y la intensidad de uso en verano. Los apartamentos tienen superficies ajustadas, terrazas que conviene aprovechar y baños sin ventana que necesitan buena extracción. Elegimos materiales que resistan el ambiente marino y acabados fáciles de limpiar entre estancias. Si el piso se va a alquilar, planificamos la obra para que esté lista antes de la temporada. Lo explicamos con detalle en la página de <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2">reformas de pisos en Vila-seca y La Pineda</Link>.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Trámites con el Ajuntament de Vila-seca</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Antes de empezar comprobamos qué tipo de trámite corresponde a tu obra. Una reforma interior sin tocar estructura, fachada ni distribución suele ir por comunicación previa; si la obra modifica la fachada, cierra una terraza o afecta a elementos estructurales, el procedimiento es más exigente y puede requerir proyecto técnico. Preparamos la documentación, avisamos a la comunidad de propietarios y organizamos contenedor y protecciones de zonas comunes. En los edificios de La Pineda, además, respetamos los periodos y horarios que fijan muchas comunidades durante el verano.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Cuándo empezar</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            El otoño y el invierno son la mejor época para reformar en la costa: los edificios están más tranquilos, es más fácil coordinar a los oficios y llegas a la primavera con la casa terminada. Si tu piso sufre condensación o moho en los meses fríos, en el blog tienes una guía sobre <Link href="/blog/humedad-condensacion-invierno-vilaseca-la-pineda" className="text-accent font-semibold underline underline-offset-2">humedad y condensación en Vila-seca y La Pineda</Link>. Y si la casa entera necesita una puesta al día, revisa cómo trabajamos las <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2">reformas integrales</Link>, los <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline underline-offset-2">baños</Link> o, para negocios del municipio, la <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline underline-offset-2">reforma de locales</Link>.
+          </p>
+        </div>
+      </section>
+
       {/* ZONAS */}
       <section className="bg-beige-warm py-16 md:py-20 px-5">
         <div className="mx-auto max-w-[1200px] text-center">
@@ -276,7 +310,7 @@ export default function HomePage() {
             Reformas en Vila-seca, La Pineda y zonas cercanas
           </h2>
           <p className="font-body text-subtitle text-base max-w-[640px] mx-auto mb-8">
-            Vila-seca y todo el entorno del Port d&apos;Aventura. La proximidad nos permite que la furgoneta esté en obra cada mañana. Cobertura sin sobrecoste por kilometraje en estos cinco municipios cercanos.
+            Vila-seca y todo el entorno del Port d&apos;Aventura. La proximidad nos permite que la furgoneta esté en obra cada mañana. Cobertura sin sobrecoste por kilometraje en estos cuatro municipios cercanos.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
@@ -492,7 +526,7 @@ export default function HomePage() {
       </section>
 
       <TickerBand
-        items={["Vila-seca", "La Pineda", "Salou", "Tarragona", "Cambrils", "Constantí", "Costa Daurada"]}
+        items={["Vila-seca", "La Pineda", "Salou", "La Canonja", "Cambrils", "Constantí", "Costa Daurada"]}
         bgColor="bg-accent"
         textColor="text-white"
         direction="left"

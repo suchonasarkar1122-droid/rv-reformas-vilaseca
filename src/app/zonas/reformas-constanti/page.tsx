@@ -24,6 +24,8 @@ const faqs = [
   { q: "¿Hacéis reformas de exteriores: piscina, porche, jardín?", a: "Sí, en Constantí más que en zonas costeras donde hay menos terreno. Construimos porches cubiertos, pavimentamos accesos, hacemos piscinas con vaso de hormigón proyectado y zonas de barbacoa. Coordinamos con paisajistas locales para el jardín." },
   { q: "Distancia y plazos desde Vila-seca", a: "Constantí está a 12 km al norte de Vila-seca por la T-11. 15 minutos en coche. Sin sobrecoste por desplazamiento. Plazos similares al resto de zonas: 11-14 semanas para casa unifamiliar con cocina y dos baños." },
   { q: "¿Centcelles es vuestra zona también?", a: "Sí. Centcelles, con su mausoleo romano y su entorno rural, tiene casas con terreno y antiguas viviendas que reformamos puntualmente. Pocas pero bien hechas." },
+  { q: "¿Conviene aislar la cubierta al reformar una casa en Constantí?", a: "En una unifamiliar casi siempre. La cubierta es por donde más energía se pierde en invierno y por donde entra más calor en verano. Si la obra ya incluye revisar la teja o el forjado, añadir aislamiento tiene un coste relativo bajo y se nota en confort desde el primer año." },
+  { q: "¿Podemos vivir en la casa mientras dura la reforma?", a: "En reformas parciales sí, sectorizando zonas y manteniendo un baño y una cocina operativos. En una integral con cambio de instalaciones y cubierta es más práctico desalojar durante las fases de demolición e instalaciones, que son las más molestas." },
 ];
 
 export default function ZonaConstantiPage() {
@@ -79,6 +81,28 @@ export default function ZonaConstantiPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Vivir en Constantí</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Casas con terreno y vida de pueblo</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Constantí está en el interior del Camp de Tarragona, entre el río Francolí y el aeropuerto de Reus, y eso se nota en su vivienda. Frente a los bloques turísticos de la costa, aquí predominan las casas de pueblo del núcleo histórico, las unifamiliares con jardín de las zonas de crecimiento y las construcciones rurales del término, cerca de la villa romana de Centcelles. Son edificaciones con más metros, más fachada expuesta y, a menudo, cubiertas de teja que llevan décadas sin revisarse.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Clima de interior: frío en invierno, calor en verano</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Lejos del efecto suavizante del mar, Constantí tiene inviernos más fríos y veranos más secos que Vila-seca. En una casa unifamiliar eso significa que la mayor parte de la factura energética se va por la cubierta y las ventanas. Cuando reformamos aprovechamos para aislar bajo cubierta, cambiar carpinterías y plantear calefacción por suelo radiante o aerotermia si la obra levanta pavimentos. Si quieres además renovar la cocina para abrirla al comedor o al porche, te contamos cómo lo hacemos en <Link href="/servicios/reformas-cocinas" className="text-accent font-bold underline underline-offset-2">reformas de cocinas</Link>.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Permisos en el Ajuntament de Constantí</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Dentro del casco urbano la tramitación sigue el esquema habitual: comunicación previa para reformas interiores sin afectación estructural y licencia de obra mayor con proyecto cuando se tocan estructura, fachada, cubierta o se amplía. Las construcciones en suelo no urbanizable son otro mundo: lo que se puede hacer depende del planeamiento y de si la edificación figura en catálogos de protección, así que lo estudiamos caso por caso antes de presupuestar.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Organización de una obra grande</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Una casa con terreno permite acopiar material y trabajar con más holgura que un piso, pero también exige coordinar más oficios: albañilería, cubierta, instalaciones, carpintería y exteriores. Trabajamos con un único responsable de obra y un calendario por fases. Si comparas con obras en entorno urbano, verás la diferencia en nuestra página de <Link href="/zonas/reformas-la-canonja" className="text-accent font-bold underline underline-offset-2">reformas en La Canonja</Link>, municipio vecino con vivienda más compacta.
+          </p>
         </div>
       </section>
 

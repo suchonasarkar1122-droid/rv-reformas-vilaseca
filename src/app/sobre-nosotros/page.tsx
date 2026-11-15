@@ -132,6 +132,35 @@ export default function SobreNosotrosPage() {
         </div>
       </section>
 
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Método</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.1]">Cómo llevamos una obra, de la primera llamada a la entrega</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            La mayoría de personas que nos llaman no han hecho nunca una reforma, o la hicieron hace muchos años y no guardan buen recuerdo. Por eso intentamos que cada paso sea previsible y que siempre sepas quién te va a contestar.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">1. Visita y escucha</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Vamos a ver el inmueble. En un piso de La Pineda miramos el estado de la carpintería, las bajantes y la terraza; en una casa del casco antiguo, las vigas, la humedad de los muros y la instalación eléctrica. Nos interesa saber para qué quieres la vivienda: no se reforma igual un piso que vas a alquilar en verano que uno donde vas a vivir todo el año.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">2. Presupuesto por partidas</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Entregamos un presupuesto desglosado: demolición, albañilería, fontanería, electricidad, carpintería, acabados. Así puedes comparar con otras ofertas y decidir dónde gastar más y dónde ajustar. Si algo no se puede valorar hasta abrir (por ejemplo, el estado de una tubería empotrada), lo indicamos por escrito en lugar de esconderlo.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">3. Trámites y comunidad</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Antes de empezar comprobamos qué pide el Ajuntament de Vila-seca para tu obra, normalmente una comunicación previa si es una reforma interior, y preparamos la documentación. Avisamos a la comunidad de propietarios de las fechas con más ruido y de cualquier corte de agua o luz, algo especialmente delicado en los edificios de La Pineda con vecinos de vacaciones.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">4. Obra con un único responsable</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Durante la obra tienes una persona de referencia que coordina los oficios y te informa de los avances. Si aparece un imprevisto, te lo explicamos con fotos y con su coste antes de hacer nada. Al terminar, revisamos contigo cada estancia y dejamos anotados los detalles pendientes para cerrarlos.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Si quieres ver qué hacemos en concreto, consulta nuestros <Link href="/servicios" className="text-accent font-semibold underline underline-offset-2">servicios de reforma</Link>, desde una <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline underline-offset-2">cocina</Link> hasta un <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline underline-offset-2">local comercial</Link>. Y si te preocupa cómo pasará el invierno tu piso cerrado, en el blog explicamos cómo evitar la <Link href="/blog/humedad-condensacion-invierno-vilaseca-la-pineda" className="text-accent font-semibold underline underline-offset-2">humedad y la condensación</Link>.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-accent px-5 py-20 md:py-24">
         <div className="mx-auto max-w-[900px]">
           <div className="text-center mb-10">

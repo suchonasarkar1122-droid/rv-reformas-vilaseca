@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Aviso Legal",
   description: "Aviso legal de RV Reformas Vila-seca: titular del sitio, condiciones de uso, propiedad intelectual y jurisdicción aplicable.",
   alternates: { canonical: "/aviso-legal" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function AvisoLegalPage() {

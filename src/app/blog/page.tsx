@@ -17,6 +17,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "humedad-condensacion-invierno-vilaseca-la-pineda",
+    title: "Humedad y condensación en invierno: cómo proteger tu piso en Vila-seca y La Pineda",
+    excerpt:
+      "Por qué aparecen moho y cristales empañados en los pisos de costa cuando llega el frío, qué hacer este invierno sin obras y qué reformar antes de la primavera.",
+    image: "/images/salon-luminoso-costa-vilaseca.webp",
+    imageAlt: "Piso de costa en Vila-seca preparado contra la humedad de invierno",
+    date: "15 noviembre 2026",
+    category: "Mantenimiento",
+  },
+  {
     slug: "cuanto-cuesta-reformar-piso-turistico-vilaseca",
     title: "¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?",
     excerpt:

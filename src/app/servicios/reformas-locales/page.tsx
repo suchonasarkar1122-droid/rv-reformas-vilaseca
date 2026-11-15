@@ -118,6 +118,32 @@ export default function ReformasLocalesPage() {
         </div>
       </section>
 
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Antes de firmar</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.1]">Qué mirar en un local antes de reformarlo en Vila-seca</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Buena parte de los problemas de una reforma de local se deciden antes de que entre el primer albañil: en el momento de elegir el local y de firmar el contrato de alquiler. Si todavía estás buscando, estos puntos te ahorrarán sorpresas.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Que el uso esté permitido</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            No todos los bajos admiten cualquier actividad. Un local que ha sido tienda puede no servir para un bar si no cumple las condiciones de ventilación, insonorización o evacuación que exige la normativa para hostelería. Antes de comprometerte, conviene consultar en el Ajuntament de Vila-seca qué régimen de intervención corresponde a tu actividad (comunicación, licencia u otro) y si el local puede adaptarse. Nosotros te acompañamos a revisarlo con el técnico antes de que firmes.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Salida de humos y ruido</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En hostelería, la salida de humos es el punto crítico. En los edificios de La Pineda y del núcleo de Vila-seca no siempre es posible llevar un conducto hasta la cubierta, y sin esa salida la cocina queda muy limitada. También hay que pensar en el ruido: los vecinos de encima van a convivir con tu negocio y un buen aislamiento acústico del techo evita conflictos con la comunidad y con el ayuntamiento.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Accesibilidad y baños</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Un local abierto al público necesita, en general, un acceso sin escalones o con rampa y, según la actividad y la superficie, un aseo adaptado. En bajos antiguos con un peldaño en la entrada o con el baño en un altillo, resolver esto puede condicionar toda la distribución, así que lo estudiamos al principio.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Locales en la costa</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En La Pineda muchos negocios abren solo de primavera a otoño. Eso deja el invierno libre para obras, pero también obliga a terminar a tiempo para la temporada. La cercanía al mar exige materiales resistentes al salitre en persianas, cierres metálicos y climatización exterior. Si además tienes una vivienda que reformar, puedes consultar nuestras <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2">reformas de pisos</Link> o, para negocios en municipios cercanos, las páginas de <Link href="/zonas/reformas-salou" className="text-accent font-semibold underline underline-offset-2">Salou</Link> y <Link href="/zonas/reformas-cambrils" className="text-accent font-semibold underline underline-offset-2">Cambrils</Link>.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">

@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Política de Privacidad",
   description: "Política de privacidad de RV Reformas Vila-seca conforme al RGPD y la LOPDGDD: tratamiento de datos, finalidades, derechos y conservación.",
   alternates: { canonical: "/politica-privacidad" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function PoliticaPrivacidadPage() {

@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Política de Cookies",
   description: "Política de cookies de RV Reformas Vila-seca: tipos de cookies, finalidades y cómo gestionarlas desde tu navegador.",
   alternates: { canonical: "/cookies" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function CookiesPage() {

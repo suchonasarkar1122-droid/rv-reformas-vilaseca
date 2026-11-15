@@ -148,6 +148,32 @@ export default function ReformasBanosPage() {
         </div>
       </section>
 
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Antes de decidir</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.1]">Lo que conviene revisar antes de reformar el baño</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Un baño parece una estancia sencilla, pero concentra agua, electricidad y ventilación en pocos metros. En los pisos de Vila-seca y La Pineda encontramos casi siempre los mismos puntos débiles, y conviene conocerlos antes de elegir azulejo o mampara.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Baños interiores sin ventana</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Muchos apartamentos de La Pineda construidos para veraneo tienen el baño en el centro de la planta, sin ventana y con una rejilla que da a un patinillo. En verano, con la terraza abierta, apenas se nota. En invierno, con el piso cerrado semanas, el vapor no tiene por dónde salir y aparecen moho en el techo y manchas en las juntas. La solución pasa por un extractor con detector de humedad conectado a un conducto que funcione de verdad, no por pintar con antimoho cada año. Lo explicamos con más detalle en nuestra guía de <Link href="/blog/humedad-condensacion-invierno-vilaseca-la-pineda" className="text-accent font-semibold underline underline-offset-2">humedad y condensación en invierno</Link>.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Bajantes y desagües del edificio</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En los bloques de los 70 y 80 del núcleo de Vila-seca y de El Pla, las bajantes comunitarias suelen ser de fibrocemento o de hierro fundido. No forman parte de tu vivienda, pero tu desagüe conecta con ellas. Cuando abrimos el suelo del baño revisamos ese encuentro y, si vemos que la bajante está en mal estado, te lo indicamos para que lo traslades a la comunidad antes de cerrar el plato. Arreglarlo con el baño abierto es mucho más barato que volver a levantarlo después.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Trámite y vecinos</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Cambiar la bañera por una ducha o renovar alicatado y sanitarios es una obra interior que normalmente se tramita con comunicación previa en el Ajuntament de Vila-seca. Si la reforma del baño forma parte de una actuación mayor, como una <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2">reforma completa del piso</Link>, lo tramitamos todo junto. La parte más molesta para los vecinos es la demolición, que suele concentrarse en uno o dos días; avisamos a la comunidad con antelación y trabajamos en horario laborable.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Pensar en quién lo va a usar</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            No es lo mismo un baño para huéspedes que cambian cada semana que el baño de una pareja mayor que vive todo el año en Vila-seca. En el primero manda la facilidad de limpieza y la resistencia; en el segundo, la accesibilidad, la iluminación y el confort térmico. Por eso, en la visita preguntamos primero cómo se va a usar el baño, y después hablamos de acabados.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">

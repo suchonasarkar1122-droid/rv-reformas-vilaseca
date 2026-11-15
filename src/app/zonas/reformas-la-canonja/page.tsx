@@ -23,6 +23,8 @@ const faqs = [
   { q: "¿Trabajáis con familias del polígono petroquímico?", a: "Una parte importante de nuestros clientes en la zona son trabajadores de Repsol, Dow o Bayer con vivienda en La Canonja o Bonavista. Suele tratarse de pisos de los 90 o 2000 que se reforman para optimizar espacios o pasar a eficiencia energética A." },
   { q: "¿Hacéis casas en Masricard?", a: "Masricard tiene casas pareadas y unifamiliares de los 80-90 con jardín pequeño. Reformamos integrales bastante a menudo: cocina abierta al salón, suite con vestidor en planta alta y porche cerrado para invierno." },
   { q: "Distancia y plazos desde Vila-seca", a: "La Canonja está a 14 km / 18 minutos por la N-340. Hacemos obra allí con la misma plantilla y los mismos plazos que en Vila-seca. Sin sobrecoste por desplazamiento." },
+  { q: "¿Podéis mejorar el aislamiento acústico sin hacer una reforma completa?", a: "Sí. Cambiar ventanas y cajas de persiana es una obra de pocos días por estancia y ya reduce mucho el ruido exterior. Si además se quiere aislar una pared medianera o la fachada por dentro, se hace con trasdosado, que resta pocos centímetros a la habitación." },
+  { q: "¿Las casas antiguas del nucli antic tienen humedades?", a: "Es frecuente encontrar humedad por capilaridad en plantas bajas de muros de piedra o tapia. Antes de revestir, diagnosticamos el origen y aplicamos la solución adecuada (barrera, morteros transpirables, ventilación), porque tapar con pintura plástica solo empeora el problema." },
 ];
 
 export default function ZonaCanonjaPage() {
@@ -78,6 +80,28 @@ export default function ZonaCanonjaPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">La Canonja de cerca</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Un municipio pequeño con vivienda muy variada</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            La Canonja reúne en poco territorio realidades muy distintas. El nucli antic conserva casas entre medianeras de dos y tres plantas, con muros de carga gruesos, forjados de vigueta y escaleras estrechas, donde cada reforma empieza por saber qué se puede abrir y qué no. Alrededor crecieron bloques de pisos de los 70 a los 2000 y, en Masricard, viviendas pareadas y unifamiliares con pequeño jardín. Cada tipología pide un planteamiento propio: en una casa de pueblo hablamos de refuerzos y humedades por capilaridad; en un piso de bloque, de cambiar instalaciones y redistribuir sin tocar pilares.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Vivir junto al polígono: aislamiento acústico y ventanas</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            La cercanía al polígono petroquímico y a las vías de tráfico pesado hace que muchas familias nos pidan, además de la reforma, mejorar el aislamiento frente al ruido y el polvo. Las soluciones que mejor funcionan son ventanas con doble acristalamiento laminado acústico, cajas de persiana aisladas y, en los dormitorios que dan a la calle, trasdosados de placa con lana mineral. Es una mejora que se nota cada noche y que encaja bien dentro de una <Link href="/servicios/reformas-integrales" className="text-accent font-bold underline underline-offset-2">reforma integral</Link>, porque se aprovecha la obra para cerrar todas las fugas a la vez.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Trámites con el Ajuntament de La Canonja</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Como municipio independiente, las obras se tramitan en el propio Ajuntament de La Canonja. Para reformas interiores sin afectar estructura basta normalmente con comunicación previa; si se tocan muros de carga, forjados, cubierta o fachada, hace falta licencia con proyecto firmado por técnico. En las casas del nucli antic conviene confirmar antes si la fachada tiene algún tipo de protección o alineación que condicione ventanas y balcones. Nos encargamos de preparar la documentación y de avisar a la comunidad o a los vecinos colindantes cuando la obra lo requiere.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Cómo organizamos la obra</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Tras la visita entregamos un presupuesto cerrado por partidas y un calendario por fases: demolición, instalaciones, albañilería, revestimientos y acabados. Si la familia sigue viviendo en la casa, sectorizamos para mantener una cocina o un baño operativos el máximo tiempo posible. Y si además tienes vivienda en la costa, puedes ver nuestro trabajo en <Link href="/zonas/reformas-salou" className="text-accent font-bold underline underline-offset-2">reformas en Salou</Link>.
+          </p>
         </div>
       </section>
 

@@ -23,6 +23,8 @@ const faqs = [
   { q: "¿Hay diferencias con Vila-seca para tramitar la licencia turística?", a: "El Ayuntamiento de Salou tiene su propio reglamento de viviendas de uso turístico con limitaciones por zonas (centros saturados, controles más estrictos en primera línea). Trabajamos con gestores locales que saben qué fincas tienen cupo abierto y cuáles no. Lo aclaramos en la visita." },
   { q: "¿Cuánto tarda una reforma de apartamento en Salou Centre?", a: "Para un piso de 55-70 m² con cocina americana y un baño nuevo, 6-8 semanas. Si añadimos cambio de distribución y dos baños, 9-12 semanas. Conviene encargar antes de enero para abrir en julio." },
   { q: "¿Trabajáis en Platja de Llevant?", a: "Sí, es zona habitual. Edificios de los 80 frente al paseo, mucha demanda de alquiler turístico en julio-agosto. La proximidad de Vila-seca a Salou (8 minutos) nos permite arrancar obras allí sin sobrecoste de desplazamiento." },
+  { q: "¿Se puede hacer obra en Salou en julio y agosto?", a: "Depende de la comunidad. Muchas comunidades de Capellans y de primera línea restringen obras ruidosas en temporada alta para no molestar a los huéspedes. Por eso recomendamos programar demoliciones y trabajos con martillo entre octubre y mayo, y dejar para verano solo remates silenciosos si es imprescindible." },
+  { q: "¿Qué pasa con las bajantes y tuberías antiguas del edificio?", a: "En bloques de los 70 y 80 es habitual encontrar bajantes comunitarias de fibrocemento o hierro. Lo que va dentro de tu vivienda lo renovamos nosotros; si la bajante general está mal, lo comunicamos al administrador de la finca para que la comunidad decida cómo actuar, porque es un elemento común." },
 ];
 
 export default function ZonaSalouPage() {
@@ -79,6 +81,30 @@ export default function ZonaSalouPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Obra en Salou, paso a paso</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Cómo es la vivienda que reformamos en Salou</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            El parque de Salou se construyó casi entero en dos oleadas. La primera, entre finales de los 60 y los 80, dejó los bloques de Capellans, Platja de Llevant y buena parte del centro: estructuras de hormigón con fachadas de ladrillo visto, carpinterías de aluminio sin rotura de puente térmico, bajantes de fibrocemento y cuadros eléctricos que no aguantan una placa de inducción y un aire acondicionado a la vez. La segunda, de los 90 en adelante, se extendió hacia Cap Salou y Platja de Ponent con residenciales con piscina comunitaria, dúplex y alguna casa aislada en ladera.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En los bloques antiguos casi siempre toca renovar fontanería y electricidad completas, porque tapar instalaciones de hace cuarenta años con azulejo nuevo es pagar dos veces. En los residenciales más recientes la obra suele centrarse en cocina, baños y suelos, y el reto es otro: unos estatutos de comunidad más estrictos con horarios, ascensores protegidos y acopio de material.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Salitre, humedad y alquiler: lo que condiciona los materiales</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            A menos de 300 metros del mar el aire salino oxida herrajes, tornillería y perfiles en pocas temporadas. Por eso en Salou trabajamos con grifería de buena calidad, mecanismos que no se piquen y carpintería de aluminio lacado o PVC con herrajes inoxidables. En los apartamentos que se cierran de octubre a abril aparece además condensación: ventilar con microventilación en las ventanas y elegir pinturas transpirables evita los olores a cerrado que tanto penalizan en las reseñas. Si el piso se dedica al alquiler, los acabados se escogen pensando en limpieza rápida entre estancias; lo explicamos con detalle en nuestra página de <Link href="/servicios/reformas-pisos" className="text-accent font-bold underline underline-offset-2">reformas de pisos</Link>.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark leading-[1.1]">Permisos en el Ajuntament de Salou</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Una reforma interior sin tocar estructura ni fachada se tramita normalmente con comunicación previa de obras, presentada antes de empezar. Si se modifica la distribución afectando a elementos estructurales, se cambia la fachada o se cierra una terraza, el Ajuntament pide licencia de obra mayor con proyecto técnico, y los plazos se alargan. A esto se suma la ocupación de vía pública si hace falta contenedor en la calle, algo delicado en pleno verano en las zonas de paseo. En la visita revisamos qué trámite corresponde a tu caso y lo dejamos preparado.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Muchos de nuestros clientes de Salou tienen también vivienda en La Pineda; si es tu caso, mira cómo trabajamos las <Link href="/" className="text-accent font-bold underline underline-offset-2">reformas en Vila-seca y La Pineda</Link> para coordinar ambas obras con el mismo equipo.
+          </p>
         </div>
       </section>
 

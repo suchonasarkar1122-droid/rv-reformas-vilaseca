@@ -117,6 +117,32 @@ export default function ReformasPisosPage() {
         </div>
       </section>
 
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Paso a paso</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.1]">Cómo planificamos la reforma de un piso en Vila-seca</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            La diferencia entre una reforma de piso que sale bien y una que se alarga meses casi nunca está en la obra en sí, sino en lo que se decide antes de empezar. Estas son las cuestiones que repasamos con cada propietario en Vila-seca y La Pineda.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">El calendario manda más que el presupuesto</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Si el piso está en La Pineda y quieres usarlo o alquilarlo en verano, la reforma tiene que estar terminada antes de que empiece la temporada. Eso significa decidir en otoño o a principios de invierno, aprovechar los meses en que los edificios están medio vacíos y las comunidades ponen menos pegas al ruido, y dejar margen para los imprevistos. En cambio, un piso de vivienda habitual en el núcleo de Vila-seca se puede reformar en cualquier época; ahí lo importante es organizar dónde vivirás mientras dura la obra.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Instalaciones primero, acabados después</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En los pisos de los años 70 y 80 la instalación eléctrica suele tener pocos circuitos y sin protecciones adecuadas, y la fontanería puede ser todavía de hierro galvanizado. Renovarlas es la parte menos vistosa de la reforma, pero también la que evita problemas durante años. Siempre las valoramos antes de hablar de suelos o de muebles. Si además quieres redistribuir, el proyecto pasa a ser una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2">reforma integral</Link> y lo planteamos con plano y mediciones.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Humedad, ventanas y confort de invierno</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Un piso de costa cerrado durante el invierno sufre condensación en las paredes frías y en los marcos de las ventanas. Cambiar la carpintería por una con rotura de puente térmico y buen vidrio, y asegurar que baño y cocina ventilan, es probablemente la mejora que más se nota. En nuestra guía sobre <Link href="/blog/humedad-condensacion-invierno-vilaseca-la-pineda" className="text-accent font-semibold underline underline-offset-2">humedad y condensación en pisos de Vila-seca y La Pineda</Link> explicamos cómo detectar si tu piso tiene este problema.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Papeleo y comunidad</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Una reforma interior sin tocar estructura ni fachada se tramita normalmente con comunicación previa ante el Ajuntament de Vila-seca. Si cambias ventanas, conviene consultar a la comunidad, porque muchas tienen acordado un color o modelo de carpintería para mantener la fachada uniforme. También gestionamos el contenedor o los sacos de escombro y la protección de ascensor y zonas comunes. Si la reforma se limita a una estancia, quizá te baste con una <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline underline-offset-2">reforma de cocina</Link> o de baño en lugar de actuar en todo el piso.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">

@@ -22,7 +22,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Tendencias 2026 para pisos de la costa Daurada",
   datePublished: "2026-04-10",
-  dateModified: "2026-05-01",
+  dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "RV Reformas Vila-seca" },
   publisher: { "@id": "https://reformasvilaseca.es/#business" },
   image: "https://reformasvilaseca.es/images/rincon-lectura-butaca-tapizada.webp",
@@ -96,6 +96,24 @@ export default function PostTendenciasPage() {
             Cinco detalles que aparecen mucho en reseñas con cinco estrellas y se siguen pasando por alto cuando el propietario reforma sin asesoramiento: enchufe USB en cabecero de cama, secador de pelo decente (no el chino sin potencia), ducha con efecto lluvia, cafetera de cápsulas de marca, y aire acondicionado con mando programable en el dormitorio principal. Cinco inversiones que suman menos de 600 € y dan un retorno enorme en valoración del huésped.
           </p>
 
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">6. Terrazas: la estancia que más se revaloriza</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En La Pineda y en las urbanizaciones de Vila-seca la terraza es, muchas veces, el espacio que decide la reserva. La tendencia no es cerrarla, sino equiparla: pavimento porcelánico antideslizante de exterior con la misma tonalidad que el suelo interior para dar continuidad, toldo o pérgola ligera, punto de luz cálida y un enchufe estanco. Cerrar la terraza con carpintería suele requerir licencia de obra mayor en el Ajuntament de Vila-seca y acuerdo de la comunidad, porque modifica la fachada; antes de comprometerse a ello conviene consultarlo.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Lo que no funciona en primera línea es la madera natural sin tratamiento y el hierro pintado: el salitre y el sol del sur los degradan en dos o tres temporadas. Composite, aluminio lacado y acero inoxidable de calidad marina dan mucho menos trabajo de mantenimiento entre huéspedes.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">7. Reformar pensando en el invierno, no solo en agosto</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Otra idea que se está imponiendo: el piso de costa ya no vive solo de julio y agosto. Cada vez más propietarios alquilan por meses en invierno a trabajadores del polígono químico y del puerto, a estudiantes o a familias que visitan PortAventura fuera de temporada, o simplemente pasan más tiempo en su segunda residencia. Eso cambia las prioridades de la reforma: ventanas que cierren bien, una bomba de calor que caliente de verdad, baños con extracción mecánica y paredes que no acumulen condensación.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Un apartamento pensado solo para el verano, con carpintería de corredera vieja y sin calefacción, pierde ese mercado y además se deteriora más deprisa mientras permanece cerrado de noviembre a marzo. Sobre la humedad de invierno hemos preparado una guía específica: <Link href="/blog/humedad-condensacion-invierno-vilaseca-la-pineda" className="text-accent underline">humedad y condensación en pisos de Vila-seca y La Pineda</Link>.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">8. Lo que pide la comunidad de vecinos</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            La última tendencia es menos estética y más práctica: las comunidades de La Pineda y Vila-seca son cada vez más estrictas con las obras. Horarios de trabajo, protección del ascensor y del portal, gestión de escombros y, en algunos edificios, limitaciones a los pisos turísticos. Revisar estatutos y normas internas antes de diseñar evita tener que rehacer el proyecto. Si quieres ver cómo lo planteamos en la práctica, en la página de <Link href="/servicios/reformas-pisos" className="text-accent underline">reformas de pisos</Link> explicamos el proceso completo.
+          </p>
           <p className="font-body text-subtitle text-base leading-relaxed mt-4">
             Si te planteas reformar tu piso costero y quieres asesoramiento sobre qué tendencias aplicar y cuáles ignorar para tu caso concreto, llámanos al <strong className="text-dark">877 278 105</strong> o escríbenos por <a href="https://wa.me/34623760710" target="_blank" rel="noopener noreferrer" className="text-accent underline">WhatsApp</a>.
           </p>

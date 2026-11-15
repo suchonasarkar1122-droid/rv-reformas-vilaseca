@@ -110,6 +110,35 @@ export default function ServiciosHub() {
         </div>
       </section>
 
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Cómo elegir</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.1]">¿Qué servicio encaja con tu vivienda en Vila-seca o La Pineda?</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En el municipio conviven dos realidades muy distintas. Por un lado, el núcleo de Vila-seca, con casas entre medianeras en el casco antiguo, bloques de pisos de los años 70 y 80 en el ensanche y promociones más recientes en los extremos del pueblo. Por otro, La Pineda, donde predominan los apartamentos de playa construidos para veraneo, muchos de ellos con terraza abierta al mar, cocina pequeña y un solo baño. El servicio que te conviene depende menos del tamaño de la obra que de cómo vas a usar el inmueble.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Si solo falla una estancia</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Cuando el resto de la casa está bien y el problema es un baño con bañera vieja, juntas negras o una cocina que ya no da más de sí, lo razonable es actuar solo ahí. Una <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline underline-offset-2">reforma de baño</Link> o una <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline underline-offset-2">reforma de cocina</Link> se hacen sin vaciar la vivienda y, en la mayoría de pisos, sin tocar elementos comunes del edificio. Es la opción habitual en apartamentos de La Pineda que se alquilan en verano y necesitan ponerse al día entre temporadas.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Si el piso entero se ha quedado anticuado</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Instalación eléctrica sin diferenciales suficientes, tuberías de hierro, carpintería de aluminio sin rotura de puente térmico y suelos de terrazo levantados: cuando se juntan varias cosas, sale más a cuenta plantear una <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2">reforma de piso</Link> completa que ir parcheando. Si además quieres cambiar la distribución, unir cocina y salón o ganar un dormitorio, entonces hablamos de una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2">reforma integral</Link>, con proyecto, dirección de obra y un único interlocutor de principio a fin.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Si es un negocio</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Bares, tiendas y oficinas tienen otra lógica: el reloj corre desde que firmas el alquiler y hay que coordinar la obra con la licencia o la comunicación de actividad. En la <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline underline-offset-2">reforma de locales</Link> priorizamos lo que exige la normativa (accesibilidad, ventilación, evacuación) y dejamos la estética para cuando lo técnico está resuelto.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Lo que tienen en común todos los servicios</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Primero vemos la vivienda o el local en persona; no damos precio cerrado por teléfono. Después entregamos un presupuesto por partidas, para que sepas qué cuesta cada cosa y puedas decidir dónde ajustar. Antes de empezar revisamos qué trámite pide el Ajuntament de Vila-seca: una obra interior sin cambios estructurales suele ir por comunicación previa, mientras que tocar fachada, estructura o distribución en según qué casos puede requerir licencia. También avisamos a la comunidad de propietarios cuando hay que usar ascensor, cortar agua o colocar un contenedor.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En la costa hay un factor que condiciona todos los trabajos: el salitre y la humedad. Por eso elegimos herrajes, griferías y carpinterías que aguanten el ambiente marino, y ventilamos bien baños y cocinas. Si tu duda es precisamente la humedad de invierno, tenemos una guía sobre <Link href="/blog/humedad-condensacion-invierno-vilaseca-la-pineda" className="text-accent font-semibold underline underline-offset-2">humedad y condensación en pisos de Vila-seca y La Pineda</Link>. Y si tu vivienda está fuera del municipio, consulta las <Link href="/zonas" className="text-accent font-semibold underline underline-offset-2">zonas donde trabajamos</Link>.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-accent px-5 py-20 md:py-24">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
           <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-white leading-[1.05]">Solicita presupuesto para tu reforma</h2>

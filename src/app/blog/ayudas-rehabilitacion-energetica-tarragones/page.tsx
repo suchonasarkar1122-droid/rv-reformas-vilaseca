@@ -4,7 +4,7 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ayudas a la rehabilitación energética en el Tarragonès: guía 2026" },
+  title: { absolute: "Ayudas a la rehabilitación energética en el Tarragonès" },
   description:
     "Subvenciones Next Generation y ayudas autonómicas para mejorar la eficiencia energética de tu vivienda en Vila-seca, Salou, Tarragona y comarca.",
   alternates: { canonical: "/blog/ayudas-rehabilitacion-energetica-tarragones" },
@@ -22,7 +22,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Ayudas a la rehabilitación energética en el Tarragonès: guía 2026",
   datePublished: "2026-04-01",
-  dateModified: "2026-05-01",
+  dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "RV Reformas Vila-seca" },
   publisher: { "@id": "https://reformasvilaseca.es/#business" },
   image: "https://reformasvilaseca.es/images/estudio-muebles-madera-natural.webp",
@@ -106,6 +106,21 @@ export default function PostAyudasPage() {
             Importante: la solicitud se presenta antes de empezar la obra. Si ya has firmado contrato y empezado, casi todas las ayudas quedan fuera. Si te interesan las subvenciones, llámanos al <strong className="text-dark">877 278 105</strong> antes de cerrar nada y lo planificamos en el orden correcto.
           </p>
 
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">El papel de la comunidad de propietarios</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Buena parte de las mejoras que más ahorran en un bloque de La Pineda o del centro de Vila-seca (aislamiento de fachada, cubierta, sustitución de bajantes, instalaciones comunes) no dependen de un solo propietario, sino de la comunidad. Para acceder a las ayudas por edificio hace falta un acuerdo en junta, un técnico que redacte el estudio previo y un administrador de fincas que coordine pagos y documentación. En edificios con muchos pisos turísticos, cuyos propietarios viven fuera, esa coordinación suele ser el verdadero cuello de botella, más que el dinero.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Nuestra recomendación es empezar por el Libro del Edificio o por una inspección técnica: con un diagnóstico por escrito es mucho más fácil convencer a los vecinos y priorizar qué obra hacer primero. Y si la comunidad no avanza, siempre puedes actuar dentro de tu vivienda, cambiando ventanas, mejorando la climatización o aislando por el interior los muros más fríos.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">Permisos en el Ajuntament de Vila-seca</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Las ayudas no sustituyen al permiso municipal. Cambiar ventanas manteniendo el hueco o renovar instalaciones interiores suele tramitarse como comunicación previa de obras; colocar un SATE en fachada, modificar huecos o instalar placas en cubierta comunitaria puede requerir licencia de obra mayor y proyecto técnico. Conviene llevar ambos expedientes en paralelo, porque algunas convocatorias piden acreditar el permiso municipal o, al menos, haberlo solicitado. Antes de presentar nada, consulta en el Ajuntament o con tu técnico qué figura corresponde a tu caso.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">Por dónde empezar si tu piso pasa frío en invierno</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Si tu vivienda en Vila-seca sufre condensación en las ventanas, manchas negras en las esquinas o facturas de calefacción altas, lo más rentable suele ser actuar en este orden: ventanas y cajas de persiana, ventilación (sobre todo en baños interiores), aislamiento de los paramentos que dan al exterior y, por último, el sistema de climatización. Lo explicamos con más detalle en nuestra guía sobre <Link href="/blog/humedad-condensacion-invierno-vilaseca-la-pineda" className="text-accent underline">humedad y condensación en invierno</Link>, y si buscas una actuación completa puedes ver cómo trabajamos en <Link href="/servicios/reformas-integrales" className="text-accent underline">reformas integrales</Link>.
+          </p>
           <p className="font-body text-subtitle text-base leading-relaxed mt-4">
             La información de esta guía es orientativa y refleja el marco vigente a 1 de mayo de 2026. Las convocatorias y plazos pueden modificarse. Para confirmar tu caso concreto consulta con un gestor especializado o pregúntanos en la <Link href="/contacto" className="text-accent underline">página de contacto</Link>.
           </p>

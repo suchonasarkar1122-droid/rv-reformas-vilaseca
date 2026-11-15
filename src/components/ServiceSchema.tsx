@@ -30,7 +30,6 @@ export default function ServiceSchema({ name, description, url, image }: Service
       { "@type": "City", name: "Vila-seca" },
       { "@type": "City", name: "Salou" },
       { "@type": "City", name: "La Canonja" },
-      { "@type": "City", name: "Tarragona" },
       { "@type": "City", name: "Cambrils" },
       { "@type": "City", name: "Constantí" },
     ],

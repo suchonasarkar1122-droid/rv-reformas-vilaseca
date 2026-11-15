@@ -6,11 +6,11 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Zonas de servicio en el Tarragonès",
   description:
-    "Reformamos en Vila-seca, Salou, La Canonja, Tarragona, Cambrils y Constantí. Cinco municipios cercanos con cobertura sin sobrecoste por desplazamiento.",
+    "Reformamos en Vila-seca, La Pineda, Salou, La Canonja, Cambrils y Constantí, sin sobrecoste por desplazamiento desde nuestra base en Vila-seca.",
   alternates: { canonical: "/zonas" },
   openGraph: {
     title: "Zonas - RV Reformas Vila-seca",
-    description: "Reformas en cinco municipios cercanos a Vila-seca: Salou, La Canonja, Tarragona, Cambrils y Constantí.",
+    description: "Reformas en Vila-seca, La Pineda y cuatro municipios cercanos: Salou, La Canonja, Cambrils y Constantí.",
     url: "/zonas",
   },
 };
@@ -49,7 +49,7 @@ export default function ZonasHub() {
               Reformas en Vila-seca, La Pineda y zonas cercanas
             </h2>
             <p className="font-body text-subtitle text-base">
-              Donde reformamos sin sobrecoste por kilometraje. Vila-seca es nuestra base. Estos cinco municipios están a menos de 20 minutos en furgoneta. Si tu inmueble queda fuera de esta franja (Reus, Mont-roig, El Vendrell), pregúntanos: lo estudiamos caso a caso.
+              Donde reformamos sin sobrecoste por kilometraje. Vila-seca es nuestra base. Los cuatro municipios de esta página están a menos de 20 minutos en furgoneta. Si tu inmueble queda fuera de esta franja (Reus, Mont-roig, El Vendrell), pregúntanos: lo estudiamos caso a caso.
             </p>
           </div>
 
@@ -68,6 +68,28 @@ export default function ZonasHub() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[800px] flex flex-col gap-5">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Desde Vila-seca</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.1]">Cómo trabajamos fuera de Vila-seca</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Nuestra base está en Vila-seca y la mayoría de obras las hacemos en el propio municipio: en el núcleo, con sus casas de pueblo y bloques de los 70 y 80, y en La Pineda, donde el apartamento de playa es la tipología dominante. Si buscas <Link href="/" className="text-accent font-semibold underline underline-offset-2">reformas en Vila-seca y La Pineda</Link>, la página principal resume cómo trabajamos aquí. Los municipios de alrededor los atendemos con el mismo equipo y el mismo método, porque están lo bastante cerca como para estar en obra a primera hora y volver a revisar por la tarde si hace falta.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Cada municipio pide algo distinto</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En <Link href="/zonas/reformas-salou" className="text-accent font-semibold underline underline-offset-2">Salou</Link> el calendario manda: casi todo lo que reformamos es apartamento que tiene que estar listo antes de Semana Santa o del verano, y las comunidades de los edificios de primera línea suelen limitar los horarios de obra en temporada. En <Link href="/zonas/reformas-cambrils" className="text-accent font-semibold underline underline-offset-2">Cambrils</Link> conviven el piso del barrio del Port, la vivienda familiar del centro y las casas de Vilafortuny, y el salitre obliga a cuidar la elección de carpinterías y herrajes. <Link href="/zonas/reformas-la-canonja" className="text-accent font-semibold underline underline-offset-2">La Canonja</Link> es sobre todo vivienda habitual, con casas de pueblo y pisos de familias que trabajan en el entorno industrial; aquí el aislamiento acústico y térmico pesa más que la estética de alquiler. Y en <Link href="/zonas/reformas-constanti" className="text-accent font-semibold underline underline-offset-2">Constantí</Link>, más hacia el interior, abundan las casas unifamiliares y las viviendas con terreno, con obras más largas y más exteriores.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">Trámites: cada Ajuntament tiene su ventanilla</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Aunque la lógica es parecida en toda Cataluña, cada ayuntamiento tiene sus propios formularios y criterios para distinguir una obra que basta con comunicar de una que necesita licencia. Una reforma interior sin tocar estructura ni fachada suele resolverse con comunicación previa; si cambias huecos de fachada, cierras una terraza o intervienes en la estructura, el trámite es más exigente. Antes de presupuestar comprobamos qué pide el municipio en tu caso concreto, porque condiciona el calendario y, a veces, el propio proyecto.
+          </p>
+          <h3 className="font-display font-bold text-2xl text-dark mt-4">¿Y si tu vivienda está en otro sitio?</h3>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Si tu inmueble queda fuera de estos municipios, cuéntanos dónde está y qué quieres hacer. Valoramos si podemos atenderlo con la misma dedicación; si no es así, te lo decimos claramente desde el principio en lugar de aceptar una obra que luego no podamos seguir bien. Todos los servicios, desde una <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline underline-offset-2">reforma de baño</Link> hasta una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2">reforma integral</Link>, están disponibles en las cuatro zonas.
+          </p>
         </div>
       </section>
 

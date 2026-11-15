@@ -4,7 +4,7 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: { absolute: "¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?" },
+  title: { absolute: "¿Cuánto cuesta reformar un piso turístico en Vila-seca?" },
   description:
     "Cifras reales para reformar un piso de alquiler vacacional en Vila-seca o La Pineda en 2026.",
   alternates: { canonical: "/blog/cuanto-cuesta-reformar-piso-turistico-vilaseca" },
@@ -22,7 +22,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "¿Cuánto cuesta reformar un piso turístico en Vila-seca y La Pineda?",
   datePublished: "2026-04-20",
-  dateModified: "2026-05-01",
+  dateModified: "2026-11-15",
   author: { "@type": "Organization", name: "RV Reformas Vila-seca" },
   publisher: { "@id": "https://reformasvilaseca.es/#business" },
   image: "https://reformasvilaseca.es/images/habitacion-infantil-antes-despues.webp",
@@ -106,6 +106,20 @@ export default function PostCuantoCuestaPage() {
             Si quieres que tu primer huésped haga check-in el 1 de julio, el calendario realista es: visita técnica antes del 31 de enero, contrato firmado a mediados de febrero, obra de febrero a mayo (10-12 semanas), tramitación de licencia turística y fotografía en mayo-junio, alta del anuncio en plataformas en junio. Tres meses largos de margen, sin estresar a nadie.
           </p>
 
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">Papeleo en Vila-seca: qué se tramita antes de abrir</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            El coste de la tramitación aparece en el desglose, pero conviene saber qué hay detrás. Si la obra es interior y no toca estructura, fachada ni elementos comunes, en el Ajuntament de Vila-seca suele bastar con una comunicación previa de obras, presentada antes de empezar y acompañada del presupuesto y una descripción de los trabajos. Si se mueven muros de carga, se abren huecos en fachada o se cierra una terraza, ya hablamos de una licencia de obra mayor con proyecto firmado por técnico, y los plazos se alargan.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Para destinar el piso a uso turístico hace falta, además, la cédula de habitabilidad vigente, la comunicación de inicio de actividad al Ajuntament y la inscripción en el registro de turismo de la Generalitat. Antes de comprar o de encargar la reforma, revisa si los estatutos de la comunidad prohíben o limitan los pisos turísticos: en algunos bloques de La Pineda se han aprobado restricciones y una obra pensada para alquiler vacacional puede quedarse sin sentido.
+          </p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[36px] text-dark mt-4">La Pineda no es el casco antiguo: por qué cambia el presupuesto</h2>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            Un apartamento de La Pineda, cerca del paseo de Pau Casals, y un piso del núcleo de Vila-seca no se reforman igual. En primera línea el salitre castiga la carpintería exterior, las barandillas y cualquier pieza metálica de la terraza, de modo que suele compensar subir de gama en ventanas, herrajes de acero inoxidable y grifería. También pesa la logística: en pleno verano muchas comunidades restringen ruidos y uso del ascensor, así que la obra se concentra en los meses de baja ocupación.
+          </p>
+          <p className="font-body text-subtitle text-base leading-relaxed">
+            En el centro de Vila-seca y en sus calles de ensanche abunda el piso de vivienda habitual de los años 60-80, con más metros, cocina cerrada y sin vistas al mar. Ahí el dinero se va sobre todo en instalaciones (electricidad, fontanería, bajantes) y en redistribuir, mientras que en La Pineda la partida que más crece es la de acabados resistentes y equipamiento para el huésped. Tenerlo claro desde la primera visita evita sorpresas a mitad de obra.
+          </p>
           <p className="font-body text-subtitle text-base leading-relaxed mt-4">
             Si necesitas una valoración detallada para tu inmueble concreto, llámanos al <strong className="text-dark">877 278 105</strong> o pide visita técnica desde la <Link href="/contacto" className="text-accent underline">página de contacto</Link>. Te respondemos en menos de 24 horas con cifras precisas adaptadas a tu piso.
           </p>
