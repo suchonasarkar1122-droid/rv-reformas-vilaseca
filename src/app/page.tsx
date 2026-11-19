@@ -491,7 +491,7 @@ export default function HomePage() {
               Preguntas frecuentes sobre reformas en Vila-seca
             </h2>
             <p className="font-body text-subtitle text-base max-w-[600px] mx-auto">
-              Dudas habituales antes de empezar la obra. Si tu duda no está aquí, escríbenos por WhatsApp al 623 760 710 o llama al 877 278 105. Respondemos en el mismo día.
+              Dudas habituales antes de empezar la obra. Si tu duda no está aquí, escríbenos por WhatsApp o llama al 877 278 105. Respondemos en el mismo día.
             </p>
           </div>
 

@@ -83,7 +83,7 @@ export default function ContactoPage() {
                   <h3 className="font-display font-bold text-dark text-base uppercase">WhatsApp</h3>
                 </div>
                 <a href="https://wa.me/34623760710" target="_blank" rel="noopener noreferrer" className="font-body font-semibold text-[#25D366] text-lg hover:underline">
-                  Escríbenos al +34 623 760 710
+                  Escríbenos por WhatsApp
                 </a>
                 <p className="text-subtitle text-sm mt-1 font-body">Útil si nos quieres mandar fotos del inmueble.</p>
               </div>
